@@ -1,5 +1,8 @@
 package core.basesyntax.model.machine;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Truck extends Machine {
     private String color;
     private double maxAllowedWeight;
